@@ -96,7 +96,7 @@ hr {
 footer {
     display: flex;
     justify-content: center;
-    gap: 8em;
+    gap: 12.5em;
     padding: 32px;
 }
 
@@ -124,4 +124,68 @@ ul.list > li {
 a {
     text-decoration: none;
     color: black;
+}
+
+/* Media Queries for mobile */
+
+/* Media Query for navbar */
+@media screen and (max-width: 480px) {
+    .nav {
+        background-color: #EB89F0;
+        width: auto;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .leftSide {
+        flex-direction: column;
+        text-align: center;
+        order: 2;
+    }
+    .rightSide {
+        flex-direction: column;
+        text-align: center;
+        order: 3;
+    }
+    .navList {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .articleTitle {
+        margin: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .articleContent {
+        margin: 16px;
+    }
+}
+
+/* media query for footer */
+@media screen and (max-width: 480px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1em;
+        padding: 32px;
+    }
+    ul.list {
+        flex-direction: column;
+    }
+    ul.list > li {
+        flex-direction: column;
+    }
 }
