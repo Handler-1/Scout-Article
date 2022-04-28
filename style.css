@@ -96,7 +96,7 @@ hr {
 footer {
     display: flex;
     justify-content: center;
-    gap: 12.5em;
+    gap: 10em;
     padding: 32px;
 }
 
