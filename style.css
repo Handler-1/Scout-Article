@@ -1,0 +1,124 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+/* This is for the navbar */
+.nav {
+    background-color: #EB89F0;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.leftSide, .rightSide {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.navList, .home {
+    display: flex;
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.logoPic {
+    width: 50px;
+    height: auto;
+}
+
+.logoName {
+    font-family: Pacifico;
+}
+
+.home {
+    gap: 3px;
+}
+
+/* This is for the title of the article */
+.articleTitle {
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.titleImage {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 0;
+    margin-bottom: 4px;
+}
+
+.articlePicture {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+/* This is for the contents on the article */
+.articleContent {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 32px;
+}
+
+hr {
+    background-color: #d3d3d3;
+    height: 3px;
+    border: 0;
+}
+
+/* This is for the footer */
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+    padding: 32px;
+}
+
+footer > ul.list > li:first-child {
+    font-weight: bolder;
+    font-size: 1.25em;
+    color: #224c58;
+    margin-bottom: 10px;
+}
+  
+ul.list {
+    list-style-type: none;
+    max-width: 400px;
+    margin: 0;
+    padding: 0;
+}
+  
+ul.list > li {
+    margin-bottom: 2px;
+    word-wrap: break-word;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
