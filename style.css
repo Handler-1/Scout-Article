@@ -148,6 +148,7 @@ a {
         flex-direction: column;
         text-align: center;
         order: 3;
+        padding-top: 8px;
     }
     .navList {
         flex-direction: column;
