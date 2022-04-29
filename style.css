@@ -129,7 +129,7 @@ a {
 /* Media Queries for mobile */
 
 /* Media Query for navbar */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 950px) {
     .nav {
         background-color: #EB89F0;
         width: auto;
@@ -162,20 +162,20 @@ a {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 950px) {
     .articleTitle {
-        margin: 16px;
+        margin: 32px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 950px) {
     .articleContent {
-        margin: 16px;
+        margin: 32px;
     }
 }
 
 /* media query for footer */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 950px) {
     footer {
         display: flex;
         flex-direction: column;
